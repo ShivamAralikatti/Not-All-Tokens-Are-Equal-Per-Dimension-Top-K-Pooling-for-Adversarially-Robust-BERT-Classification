@@ -216,3 +216,25 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Datasets
+data/
+*.csv
+*.tsv
+
+# Model checkpoints
+checkpoints/
+*.pt
+*.bin
+*.safetensors
+
+# HuggingFace cache
+.cache/
+
+# Experiment outputs
+outputs/
+logs/
+runs/
+
+# Jupyter
+.ipynb_checkpoints/
